@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prática: Como usamos exception?</title>
+</head>
+<body>
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" required><br>
+
+    <label for="cargo">Cargo:</label>
+    <select id="cargo" required>
+      <option value="Gerente">Gerente</option>
+      <option value="Desenvolvedor">Desenvolvedor</option>
+    </select><br>
+
+    <div id="departamentoField" style="display: none;">
+      <label for="departamento">Departamento:</label>
+      <input type="text" id="departamento"><br>
+    </div>
+
+    <div id="linguagemField" style="display: none;">
+      <label for="linguagem">Linguagem:</label>
+      <input type="text" id="linguagem"><br>
+    </div>
+
+    <button type="button" onclick="criarFuncionario()">Criar Funcionário</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
