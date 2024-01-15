@@ -9,7 +9,7 @@
 ####   2. Gerente
 ####   3. Desenvolvedor
    
-###- Funções
+### - Funções
 ####  1. exibirErro(mensagem)
 ####   2. criarFuncionario()
 ####   3. exibirInformacoes(funcionario)
